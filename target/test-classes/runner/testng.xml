@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestNG Framework">
+
+<listeners>
+    <listener class-name="extentlisteners.ExtentListeners" />
+    
+  </listeners>
+ 
+
+  <test name="New User Login Test">
+    <classes>
+      <class name="testcase.LoginTest"/>
+    </classes>
+    </test>
+    
+   
+</suite> <!-- Suite -->
