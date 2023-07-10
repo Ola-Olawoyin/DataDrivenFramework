@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">TestNG Framework</th></tr>
+<tr><td><a href="#t0">User Login Test</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">4</td><td class="num">4,644</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">New User Registration Test</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">6</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">0</th><th class="num attn">1</th><th class="num attn">4</th><th class="num">4,650</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">TestNG Framework</th></tr></tbody><tbody id="t0"><tr><th colspan="4">User Login Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="4">testcases.LoginTest</td><td><a href="#m0">doLogin</a></td><td rowspan="4">1688995747268</td><td rowspan="4">1207</td></tr><tr class="failedeven"><td><a href="#m1">doLogin</a></td></tr><tr class="failedeven"><td><a href="#m2">doLogin</a></td></tr><tr class="failedeven"><td><a href="#m3">doLogin</a></td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">New User Registration Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">testcases.UserRegTest</td><td><a href="#m4">doUserRegTest</a></td><td rowspan="1">1688995752342</td><td rowspan="1">0</td></tr></tbody>
+</table>
+<h2>User Login Test</h2><h3 id="m0">testcases.LoginTest#doLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>kit.ola@gmail.com</td><td>aasdfg</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button value=&quot;1&quot; class=&quot;_42ft _4jy0 _52e0 _4jy6 _4jy1 selected _51sy&quot; id=&quot;loginbutton&quot; name=&quot;login&quot; tabindex=&quot;0&quot; type=&quot;submit&quot;&gt;...&lt;/button&gt; is not clickable at point (631, 339). Other element would receive the click: &lt;div class=&quot;_al50&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=114.0.5735.199)
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [80f0673c2ebc5adaa1f62120b8cc326d, clickElement {id=B6016BB5CA8CB5F5DA5032BD78A599C7_element_6}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\bosun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55910}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55910/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (80f0673c2ebc5adaa1f62120b8cc326d)] -&gt; xpath: //div[@class=&apos;_xkt&apos;]/button[@value =1][@type = &apos;submit&apos;]]
+Session ID: 80f0673c2ebc5adaa1f62120b8cc326d
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at base.BaseTest.click(BaseTest.java:40)
+	at testcases.LoginTest.doLogin(LoginTest.java:14)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testcases.LoginTest#doLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>lol.ola@gmail.com</td><td>asdfgt</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button value=&quot;1&quot; class=&quot;_42ft _4jy0 _52e0 _4jy6 _4jy1 selected _51sy&quot; id=&quot;loginbutton&quot; name=&quot;login&quot; tabindex=&quot;0&quot; type=&quot;submit&quot;&gt;...&lt;/button&gt; is not clickable at point (631, 339). Other element would receive the click: &lt;div class=&quot;_al50&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=114.0.5735.199)
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [80f0673c2ebc5adaa1f62120b8cc326d, clickElement {id=B6016BB5CA8CB5F5DA5032BD78A599C7_element_6}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\bosun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55910}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55910/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (80f0673c2ebc5adaa1f62120b8cc326d)] -&gt; xpath: //div[@class=&apos;_xkt&apos;]/button[@value =1][@type = &apos;submit&apos;]]
+Session ID: 80f0673c2ebc5adaa1f62120b8cc326d
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at base.BaseTest.click(BaseTest.java:40)
+	at testcases.LoginTest.doLogin(LoginTest.java:14)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testcases.LoginTest#doLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>ola.ola@gmail.com</td><td>]sdnlmgjkh</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button value=&quot;1&quot; class=&quot;_42ft _4jy0 _52e0 _4jy6 _4jy1 selected _51sy&quot; id=&quot;loginbutton&quot; name=&quot;login&quot; tabindex=&quot;0&quot; type=&quot;submit&quot;&gt;...&lt;/button&gt; is not clickable at point (631, 339). Other element would receive the click: &lt;div class=&quot;_al50&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=114.0.5735.199)
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [80f0673c2ebc5adaa1f62120b8cc326d, clickElement {id=B6016BB5CA8CB5F5DA5032BD78A599C7_element_6}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\bosun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55910}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55910/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (80f0673c2ebc5adaa1f62120b8cc326d)] -&gt; xpath: //div[@class=&apos;_xkt&apos;]/button[@value =1][@type = &apos;submit&apos;]]
+Session ID: 80f0673c2ebc5adaa1f62120b8cc326d
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at base.BaseTest.click(BaseTest.java:40)
+	at testcases.LoginTest.doLogin(LoginTest.java:14)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testcases.LoginTest#doLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>ade.ola@gmail.com</td><td>boseun]</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button value=&quot;1&quot; class=&quot;_42ft _4jy0 _52e0 _4jy6 _4jy1 selected _51sy&quot; id=&quot;loginbutton&quot; name=&quot;login&quot; tabindex=&quot;0&quot; type=&quot;submit&quot;&gt;...&lt;/button&gt; is not clickable at point (631, 339). Other element would receive the click: &lt;div class=&quot;_al50&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=114.0.5735.199)
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [80f0673c2ebc5adaa1f62120b8cc326d, clickElement {id=B6016BB5CA8CB5F5DA5032BD78A599C7_element_6}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\bosun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55910}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55910/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (80f0673c2ebc5adaa1f62120b8cc326d)] -&gt; xpath: //div[@class=&apos;_xkt&apos;]/button[@value =1][@type = &apos;submit&apos;]]
+Session ID: 80f0673c2ebc5adaa1f62120b8cc326d
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at base.BaseTest.click(BaseTest.java:40)
+	at testcases.LoginTest.doLogin(LoginTest.java:14)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>New User Registration Test</h2><h3 id="m4">testcases.UserRegTest#doUserRegTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: java.lang.NegativeArraySizeException: -1
+Caused by: java.lang.NegativeArraySizeException: -1
+	at testcases.UserRegTest.getData(UserRegTest.java:27)
+	... 22 more
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

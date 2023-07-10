@@ -8,9 +8,15 @@
   </listeners>
  
 
-  <test name="New User Login Test">
+  <test name="User Login Test">
     <classes>
-      <class name="testcase.LoginTest"/>
+      <class name="testcases.LoginTest"/>
+    </classes>
+    </test>
+    
+    <test name="New User Registration Test">
+    <classes>
+      <class name="testcases.UserRegTest"/>
     </classes>
     </test>
     

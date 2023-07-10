@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNG Framework]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="extentlisteners.ExtentListeners"/>
+  </listeners>
+  <test thread-count="5" name="User Login Test(failed)">
+    <classes>
+      <class name="testcases.LoginTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="doLogin" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- testcases.LoginTest -->
+    </classes>
+  </test> <!-- User Login Test(failed) -->
+  <test thread-count="5" name="New User Registration Test(failed)">
+    <classes>
+      <class name="testcases.UserRegTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="doUserRegTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.UserRegTest -->
+    </classes>
+  </test> <!-- New User Registration Test(failed) -->
+</suite> <!-- Failed suite [TestNG Framework] -->
