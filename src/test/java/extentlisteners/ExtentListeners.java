@@ -54,20 +54,20 @@ public class ExtentListeners implements ITestListener, ISuiteListener {
 	public void onTestFailure(ITestResult result) {
 		
 
-		///test.fail(result.getThrowable().getMessage());
-		/*try {
+		test.fail(result.getThrowable().getMessage());
+		try {
 			ExtentManager.captureScreenshot();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}*/
+		}
 		String methodName=result.getMethod().getMethodName();
 		String logText="<b>"+"TEST CASE:- "+ methodName.toUpperCase()+ " FAILED"+"</b>";		
 	
 	
 
-		//test.fail("<b><font color=red>" + "Screenshot of failure" + "</font></b><br>",MediaEntityBuilder.createScreenCaptureFromPath(ExtentManager.fileName)
-		//		.build());
+		test.fail("<b><font color=red>" + "Screenshot of failure" + "</font></b><br>",MediaEntityBuilder.createScreenCaptureFromPath(ExtentManager.fileName)
+				.build());
 	
 		
 		Markup m = MarkupHelper.createLabel(logText, ExtentColor.RED);

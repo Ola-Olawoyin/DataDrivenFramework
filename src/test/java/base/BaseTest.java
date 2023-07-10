@@ -10,8 +10,10 @@ import java.util.Properties;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
@@ -30,8 +32,9 @@ public class BaseTest {
 	public static FileInputStream fis;
 	public static ExcelReader excel = new ExcelReader("./src/test/resources/excel/testdata.xlsx");
 	public static Logger log = Logger.getLogger(BaseTest.class);
-	public static MonitoringMail mail = new MonitoringMail();
+	//public static MonitoringMail mail = new MonitoringMail();
 	public static WebDriverWait wait;
+	public static WebElement dropdown;
 	
 	public static void click(String locatorKey) {
 
@@ -130,23 +133,23 @@ public class BaseTest {
 			
 			wait = new WebDriverWait(driver, Duration.ofSeconds(Integer.parseInt(config.getProperty("explicit.wait"))));
 			
-			try {
-				DbManager.setMysqlDbConnection();
-				log.info("Database Connection established");
-			} catch (ClassNotFoundException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			} catch (SQLException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
+//			try {
+//				DbManager.setMysqlDbConnection();
+//				log.info("Database Connection established");
+//			} catch (ClassNotFoundException e) {
+//				// TODO Auto-generated catch block
+//				e.printStackTrace();
+//			} catch (SQLException e) {
+//				// TODO Auto-generated catch block
+//				e.printStackTrace();
+//			}
 		}
 		
 	}
 
 	@AfterSuite
 	public void tearDown() {
-		//driver.quit();
+		driver.quit();
 		log.info("Test Execution completed");
 
 	}
