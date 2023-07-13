@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="0" failed="4" skipped="1">
+<testng-results ignored="0" total="7" passed="3" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-10T13:29:07Z" name="TestNG Framework" finished-at="2023-07-10T13:29:12Z" duration-ms="5115">
+  <suite started-at="2023-07-10T17:23:13Z" name="TestNG Framework" finished-at="2023-07-10T17:23:18Z" duration-ms="5813">
     <groups>
     </groups>
-    <test started-at="2023-07-10T13:29:07Z" name="User Login Test" finished-at="2023-07-10T13:29:11Z" duration-ms="4644">
+    <test started-at="2023-07-10T17:23:13Z" name="User Login Test" finished-at="2023-07-10T17:23:18Z" duration-ms="5355">
       <class name="testcases.LoginTest">
-        <test-method signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTest@534ca02b]" started-at="2023-07-10T13:29:07Z" name="doLogin" data-provider="data" finished-at="2023-07-10T13:29:08Z" duration-ms="1207" status="FAIL">
+        <test-method signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTest@2873d672]" started-at="2023-07-10T17:23:13Z" name="doLogin" data-provider="data" finished-at="2023-07-10T17:23:14Z" duration-ms="1190" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -27,10 +27,10 @@
 Build info: version: '4.8.3', revision: 'e5e76298c3'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [80f0673c2ebc5adaa1f62120b8cc326d, clickElement {id=B6016BB5CA8CB5F5DA5032BD78A599C7_element_6}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\bosun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55910}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55910/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (80f0673c2ebc5adaa1f62120b8cc326d)] -> xpath: //div[@class='_xkt']/button[@value =1][@type = 'submit']]
-Session ID: 80f0673c2ebc5adaa1f62120b8cc326d]]>
+Command: [8565243f1fe10a0d363fdff44c11016f, clickElement {id=DE248FC7A7284FC9A05A4E0ED58886FC_element_6}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\bosun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59123}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59123/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (8565243f1fe10a0d363fdff44c11016f)] -> xpath: //div[@class='_xkt']/button[@value =1][@type = 'submit']]
+Session ID: 8565243f1fe10a0d363fdff44c11016f]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button value="1" class="_42ft _4jy0 _52e0 _4jy6 _4jy1 selected _51sy" id="loginbutton" name="login" tabindex="0" type="submit">...</button> is not clickable at point (631, 339). Other element would receive the click: <div class="_al50">...</div>
@@ -38,10 +38,10 @@ Session ID: 80f0673c2ebc5adaa1f62120b8cc326d]]>
 Build info: version: '4.8.3', revision: 'e5e76298c3'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [80f0673c2ebc5adaa1f62120b8cc326d, clickElement {id=B6016BB5CA8CB5F5DA5032BD78A599C7_element_6}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\bosun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55910}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55910/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (80f0673c2ebc5adaa1f62120b8cc326d)] -> xpath: //div[@class='_xkt']/button[@value =1][@type = 'submit']]
-Session ID: 80f0673c2ebc5adaa1f62120b8cc326d
+Command: [8565243f1fe10a0d363fdff44c11016f, clickElement {id=DE248FC7A7284FC9A05A4E0ED58886FC_element_6}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\bosun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59123}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59123/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (8565243f1fe10a0d363fdff44c11016f)] -> xpath: //div[@class='_xkt']/button[@value =1][@type = 'submit']]
+Session ID: 8565243f1fe10a0d363fdff44c11016f
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -56,8 +56,8 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverComman
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
 at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
 at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
-at base.BaseTest.click(BaseTest.java:40)
-at testcases.LoginTest.doLogin(LoginTest.java:14)
+at base.BaseTest.click(BaseTest.java:43)
+at testcases.LoginTest.doLogin(LoginTest.java:15)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -89,7 +89,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTest@534ca02b]" started-at="2023-07-10T13:29:08Z" name="doLogin" data-provider="data" finished-at="2023-07-10T13:29:09Z" duration-ms="1112" status="FAIL">
+        <test-method signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTest@2873d672]" started-at="2023-07-10T17:23:14Z" name="doLogin" data-provider="data" finished-at="2023-07-10T17:23:15Z" duration-ms="1081" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -109,10 +109,10 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 Build info: version: '4.8.3', revision: 'e5e76298c3'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [80f0673c2ebc5adaa1f62120b8cc326d, clickElement {id=B6016BB5CA8CB5F5DA5032BD78A599C7_element_6}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\bosun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55910}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55910/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (80f0673c2ebc5adaa1f62120b8cc326d)] -> xpath: //div[@class='_xkt']/button[@value =1][@type = 'submit']]
-Session ID: 80f0673c2ebc5adaa1f62120b8cc326d]]>
+Command: [8565243f1fe10a0d363fdff44c11016f, clickElement {id=DE248FC7A7284FC9A05A4E0ED58886FC_element_6}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\bosun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59123}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59123/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (8565243f1fe10a0d363fdff44c11016f)] -> xpath: //div[@class='_xkt']/button[@value =1][@type = 'submit']]
+Session ID: 8565243f1fe10a0d363fdff44c11016f]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button value="1" class="_42ft _4jy0 _52e0 _4jy6 _4jy1 selected _51sy" id="loginbutton" name="login" tabindex="0" type="submit">...</button> is not clickable at point (631, 339). Other element would receive the click: <div class="_al50">...</div>
@@ -120,10 +120,10 @@ Session ID: 80f0673c2ebc5adaa1f62120b8cc326d]]>
 Build info: version: '4.8.3', revision: 'e5e76298c3'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [80f0673c2ebc5adaa1f62120b8cc326d, clickElement {id=B6016BB5CA8CB5F5DA5032BD78A599C7_element_6}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\bosun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55910}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55910/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (80f0673c2ebc5adaa1f62120b8cc326d)] -> xpath: //div[@class='_xkt']/button[@value =1][@type = 'submit']]
-Session ID: 80f0673c2ebc5adaa1f62120b8cc326d
+Command: [8565243f1fe10a0d363fdff44c11016f, clickElement {id=DE248FC7A7284FC9A05A4E0ED58886FC_element_6}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\bosun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59123}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59123/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (8565243f1fe10a0d363fdff44c11016f)] -> xpath: //div[@class='_xkt']/button[@value =1][@type = 'submit']]
+Session ID: 8565243f1fe10a0d363fdff44c11016f
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -138,8 +138,8 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverComman
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
 at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
 at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
-at base.BaseTest.click(BaseTest.java:40)
-at testcases.LoginTest.doLogin(LoginTest.java:14)
+at base.BaseTest.click(BaseTest.java:43)
+at testcases.LoginTest.doLogin(LoginTest.java:15)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -171,7 +171,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTest@534ca02b]" started-at="2023-07-10T13:29:09Z" name="doLogin" data-provider="data" finished-at="2023-07-10T13:29:10Z" duration-ms="1104" status="FAIL">
+        <test-method signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTest@2873d672]" started-at="2023-07-10T17:23:15Z" name="doLogin" data-provider="data" finished-at="2023-07-10T17:23:16Z" duration-ms="1100" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -191,10 +191,10 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 Build info: version: '4.8.3', revision: 'e5e76298c3'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [80f0673c2ebc5adaa1f62120b8cc326d, clickElement {id=B6016BB5CA8CB5F5DA5032BD78A599C7_element_6}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\bosun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55910}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55910/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (80f0673c2ebc5adaa1f62120b8cc326d)] -> xpath: //div[@class='_xkt']/button[@value =1][@type = 'submit']]
-Session ID: 80f0673c2ebc5adaa1f62120b8cc326d]]>
+Command: [8565243f1fe10a0d363fdff44c11016f, clickElement {id=DE248FC7A7284FC9A05A4E0ED58886FC_element_6}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\bosun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59123}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59123/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (8565243f1fe10a0d363fdff44c11016f)] -> xpath: //div[@class='_xkt']/button[@value =1][@type = 'submit']]
+Session ID: 8565243f1fe10a0d363fdff44c11016f]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button value="1" class="_42ft _4jy0 _52e0 _4jy6 _4jy1 selected _51sy" id="loginbutton" name="login" tabindex="0" type="submit">...</button> is not clickable at point (631, 339). Other element would receive the click: <div class="_al50">...</div>
@@ -202,10 +202,10 @@ Session ID: 80f0673c2ebc5adaa1f62120b8cc326d]]>
 Build info: version: '4.8.3', revision: 'e5e76298c3'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [80f0673c2ebc5adaa1f62120b8cc326d, clickElement {id=B6016BB5CA8CB5F5DA5032BD78A599C7_element_6}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\bosun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55910}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55910/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (80f0673c2ebc5adaa1f62120b8cc326d)] -> xpath: //div[@class='_xkt']/button[@value =1][@type = 'submit']]
-Session ID: 80f0673c2ebc5adaa1f62120b8cc326d
+Command: [8565243f1fe10a0d363fdff44c11016f, clickElement {id=DE248FC7A7284FC9A05A4E0ED58886FC_element_6}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\bosun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59123}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59123/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (8565243f1fe10a0d363fdff44c11016f)] -> xpath: //div[@class='_xkt']/button[@value =1][@type = 'submit']]
+Session ID: 8565243f1fe10a0d363fdff44c11016f
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -220,8 +220,8 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverComman
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
 at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
 at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
-at base.BaseTest.click(BaseTest.java:40)
-at testcases.LoginTest.doLogin(LoginTest.java:14)
+at base.BaseTest.click(BaseTest.java:43)
+at testcases.LoginTest.doLogin(LoginTest.java:15)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -253,7 +253,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTest@534ca02b]" started-at="2023-07-10T13:29:10Z" name="doLogin" data-provider="data" finished-at="2023-07-10T13:29:11Z" duration-ms="1114" status="FAIL">
+        <test-method signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTest@2873d672]" started-at="2023-07-10T17:23:17Z" name="doLogin" data-provider="data" finished-at="2023-07-10T17:23:18Z" duration-ms="1080" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -273,10 +273,10 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 Build info: version: '4.8.3', revision: 'e5e76298c3'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [80f0673c2ebc5adaa1f62120b8cc326d, clickElement {id=B6016BB5CA8CB5F5DA5032BD78A599C7_element_6}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\bosun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55910}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55910/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (80f0673c2ebc5adaa1f62120b8cc326d)] -> xpath: //div[@class='_xkt']/button[@value =1][@type = 'submit']]
-Session ID: 80f0673c2ebc5adaa1f62120b8cc326d]]>
+Command: [8565243f1fe10a0d363fdff44c11016f, clickElement {id=DE248FC7A7284FC9A05A4E0ED58886FC_element_6}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\bosun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59123}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59123/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (8565243f1fe10a0d363fdff44c11016f)] -> xpath: //div[@class='_xkt']/button[@value =1][@type = 'submit']]
+Session ID: 8565243f1fe10a0d363fdff44c11016f]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button value="1" class="_42ft _4jy0 _52e0 _4jy6 _4jy1 selected _51sy" id="loginbutton" name="login" tabindex="0" type="submit">...</button> is not clickable at point (631, 339). Other element would receive the click: <div class="_al50">...</div>
@@ -284,10 +284,10 @@ Session ID: 80f0673c2ebc5adaa1f62120b8cc326d]]>
 Build info: version: '4.8.3', revision: 'e5e76298c3'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [80f0673c2ebc5adaa1f62120b8cc326d, clickElement {id=B6016BB5CA8CB5F5DA5032BD78A599C7_element_6}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\bosun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55910}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55910/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (80f0673c2ebc5adaa1f62120b8cc326d)] -> xpath: //div[@class='_xkt']/button[@value =1][@type = 'submit']]
-Session ID: 80f0673c2ebc5adaa1f62120b8cc326d
+Command: [8565243f1fe10a0d363fdff44c11016f, clickElement {id=DE248FC7A7284FC9A05A4E0ED58886FC_element_6}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\bosun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59123}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59123/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (8565243f1fe10a0d363fdff44c11016f)] -> xpath: //div[@class='_xkt']/button[@value =1][@type = 'submit']]
+Session ID: 8565243f1fe10a0d363fdff44c11016f
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -302,8 +302,8 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverComman
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
 at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
 at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
-at base.BaseTest.click(BaseTest.java:40)
-at testcases.LoginTest.doLogin(LoginTest.java:14)
+at base.BaseTest.click(BaseTest.java:43)
+at testcases.LoginTest.doLogin(LoginTest.java:15)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -337,59 +337,76 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- doLogin -->
       </class> <!-- testcases.LoginTest -->
     </test> <!-- User Login Test -->
-    <test started-at="2023-07-10T13:29:12Z" name="New User Registration Test" finished-at="2023-07-10T13:29:12Z" duration-ms="6">
+    <test started-at="2023-07-10T17:23:18Z" name="New User Registration Test" finished-at="2023-07-10T17:23:18Z" duration-ms="14">
       <class name="testcases.UserRegTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.UserRegTest@5f462e3b]" started-at="2023-07-10T13:29:01Z" name="setUp" finished-at="2023-07-10T13:29:07Z" duration-ms="6216" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.UserRegTest@2a037324]" started-at="2023-07-10T17:23:06Z" name="setUp" finished-at="2023-07-10T17:23:13Z" duration-ms="6442" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="doUserRegTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.UserRegTest@5f462e3b]" started-at="2023-07-10T13:29:12Z" name="doUserRegTest" data-provider="data" finished-at="2023-07-10T13:29:12Z" duration-ms="0" status="SKIP">
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[java.lang.NegativeArraySizeException: -1]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: java.lang.NegativeArraySizeException: -1
-at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
-at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:131)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
-at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
-at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.NegativeArraySizeException: -1
-at testcases.UserRegTest.getData(UserRegTest.java:27)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:74)
-at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
-... 22 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
+        <test-method signature="doUserRegTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.UserRegTest@2a037324]" started-at="2023-07-10T17:23:18Z" name="doUserRegTest" data-provider="data" finished-at="2023-07-10T17:23:18Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ola]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Woyin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Rochester]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doUserRegTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.UserRegTest@5f462e3b]" started-at="2023-07-10T13:29:12Z" name="tearDown" finished-at="2023-07-10T13:29:12Z" duration-ms="0" status="PASS">
+        <test-method signature="doUserRegTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.UserRegTest@2a037324]" started-at="2023-07-10T17:23:18Z" name="doUserRegTest" data-provider="data" finished-at="2023-07-10T17:23:18Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Woyin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Strood]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doUserRegTest -->
+        <test-method signature="doUserRegTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.UserRegTest@2a037324]" started-at="2023-07-10T17:23:18Z" name="doUserRegTest" data-provider="data" finished-at="2023-07-10T17:23:18Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ade]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Woyin ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doUserRegTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.UserRegTest@2a037324]" started-at="2023-07-10T17:23:18Z" name="tearDown" finished-at="2023-07-10T17:23:19Z" duration-ms="607" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

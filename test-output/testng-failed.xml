@@ -15,15 +15,4 @@
       </class> <!-- testcases.LoginTest -->
     </classes>
   </test> <!-- User Login Test(failed) -->
-  <test thread-count="5" name="New User Registration Test(failed)">
-    <classes>
-      <class name="testcases.UserRegTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="doUserRegTest"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- testcases.UserRegTest -->
-    </classes>
-  </test> <!-- New User Registration Test(failed) -->
 </suite> <!-- Failed suite [TestNG Framework] -->
