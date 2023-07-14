@@ -32,7 +32,7 @@ public class BaseTest {
 	public static FileInputStream fis;
 	public static ExcelReader excel = new ExcelReader("./src/test/resources/excel/testdata.xlsx");
 	public static Logger log = Logger.getLogger(BaseTest.class);
-	//public static MonitoringMail mail = new MonitoringMail();
+	public static MonitoringMail mail = new MonitoringMail();
 	public static WebDriverWait wait;
 	public static WebElement dropdown;
 	
@@ -56,6 +56,70 @@ public class BaseTest {
 		log.info("Clicking on an Element : " + locatorKey);
 	ExtentListeners.test.info("Clicking on an Element : " + locatorKey);
 	}
+	
+	public static boolean isElementPresent(String locatorKey) {
+
+		try {
+			
+		if (locatorKey.endsWith("_XPATH")) {
+
+			driver.findElement(By.xpath(OR.getProperty(locatorKey)));
+
+		} else if (locatorKey.endsWith("_CSS")) {
+
+			driver.findElement(By.cssSelector(OR.getProperty(locatorKey)));
+
+		}
+		if (locatorKey.endsWith("_ID")) {
+
+			driver.findElement(By.id(OR.getProperty(locatorKey)));
+
+		}
+		
+		}
+		catch(Throwable t) {
+			
+			log.info("Error while finding as element : " + locatorKey);
+			ExtentListeners.test.info("Error while finding as element : " + locatorKey);
+			
+			return false;
+		}
+
+		log.info("Finding the presence of an element : " + locatorKey);
+	ExtentListeners.test.info("Finding the presence of an element : " + locatorKey);
+	
+	return true;
+	
+	}
+	
+	
+	public static void select(String locatorKey, String value) {
+		
+
+		if (locatorKey.endsWith("_XPATH")) {
+
+			dropdown = driver.findElement(By.xpath(OR.getProperty(locatorKey)));
+
+		} else if (locatorKey.endsWith("_CSS")) {
+
+			dropdown = driver.findElement(By.cssSelector(OR.getProperty(locatorKey)));
+
+		}
+		if (locatorKey.endsWith("_ID")) {
+
+			dropdown = driver.findElement(By.id(OR.getProperty(locatorKey)));
+
+		}
+		
+		Select select = new Select(dropdown);
+		select.selectByValue(value);
+		
+		
+		log.info("Selecting an element : " + locatorKey + "  and selecting a value : " + value);
+		ExtentListeners.test.info("Selecting an element : " + locatorKey + "  and selecting a value : " + value);
+
+	}
+
 
 	public static void type(String locatorKey, String value) {
 
@@ -149,7 +213,7 @@ public class BaseTest {
 
 	@AfterSuite
 	public void tearDown() {
-		driver.quit();
+		driver.close();
 		log.info("Test Execution completed");
 
 	}
