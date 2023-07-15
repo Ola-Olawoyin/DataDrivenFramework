@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-14T11:20:45Z" name="TestNG Framework" finished-at="2023-07-14T11:21:08Z" duration-ms="23314">
+  <suite started-at="2023-07-15T10:21:19Z" name="TestNG Framework" finished-at="2023-07-15T10:21:31Z" duration-ms="12150">
     <groups>
     </groups>
-    <test started-at="2023-07-14T11:20:45Z" name="Bank Manager Login Test" finished-at="2023-07-14T11:20:45Z" duration-ms="658">
+    <test started-at="2023-07-15T10:21:19Z" name="Bank Manager Login Test" finished-at="2023-07-15T10:21:20Z" duration-ms="623">
       <class name="testcases.BankManagerLoginTest">
-        <test-method signature="loginAsBankManager()[pri:0, instance:testcases.BankManagerLoginTest@61e45f87]" started-at="2023-07-14T11:20:45Z" name="loginAsBankManager" finished-at="2023-07-14T11:20:45Z" duration-ms="612" status="PASS">
+        <test-method signature="loginAsBankManager()[pri:0, instance:testcases.BankManagerLoginTest@61e45f87]" started-at="2023-07-15T10:21:19Z" name="loginAsBankManager" finished-at="2023-07-15T10:21:20Z" duration-ms="597" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginAsBankManager -->
       </class> <!-- testcases.BankManagerLoginTest -->
     </test> <!-- Bank Manager Login Test -->
-    <test started-at="2023-07-14T11:20:46Z" name="Add Customer Test" finished-at="2023-07-14T11:20:57Z" duration-ms="10492">
+    <test started-at="2023-07-15T10:21:20Z" name="Add Customer Test" finished-at="2023-07-15T10:21:30Z" duration-ms="9912">
       <class name="testcases.AddCustomerTest">
-        <test-method signature="addCustomer(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.AddCustomerTest@726a6b94]" started-at="2023-07-14T11:20:46Z" name="addCustomer" data-provider="data" finished-at="2023-07-14T11:20:49Z" duration-ms="3113" status="PASS">
+        <test-method signature="addCustomer(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.AddCustomerTest@726a6b94]" started-at="2023-07-15T10:21:20Z" name="addCustomer" data-provider="data" finished-at="2023-07-15T10:21:23Z" duration-ms="2722" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -36,7 +36,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCustomer -->
-        <test-method signature="addCustomer(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.AddCustomerTest@726a6b94]" started-at="2023-07-14T11:20:49Z" name="addCustomer" data-provider="data" finished-at="2023-07-14T11:20:52Z" duration-ms="2484" status="PASS">
+        <test-method signature="addCustomer(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.AddCustomerTest@726a6b94]" started-at="2023-07-15T10:21:23Z" name="addCustomer" data-provider="data" finished-at="2023-07-15T10:21:25Z" duration-ms="2357" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -57,7 +57,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCustomer -->
-        <test-method signature="addCustomer(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.AddCustomerTest@726a6b94]" started-at="2023-07-14T11:20:52Z" name="addCustomer" data-provider="data" finished-at="2023-07-14T11:20:54Z" duration-ms="2441" status="PASS">
+        <test-method signature="addCustomer(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.AddCustomerTest@726a6b94]" started-at="2023-07-15T10:21:25Z" name="addCustomer" data-provider="data" finished-at="2023-07-15T10:21:28Z" duration-ms="2404" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -78,7 +78,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCustomer -->
-        <test-method signature="addCustomer(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.AddCustomerTest@726a6b94]" started-at="2023-07-14T11:20:54Z" name="addCustomer" data-provider="data" finished-at="2023-07-14T11:20:57Z" duration-ms="2405" status="PASS">
+        <test-method signature="addCustomer(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.AddCustomerTest@726a6b94]" started-at="2023-07-15T10:21:28Z" name="addCustomer" data-provider="data" finished-at="2023-07-15T10:21:30Z" duration-ms="2394" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -101,13 +101,13 @@
         </test-method> <!-- addCustomer -->
       </class> <!-- testcases.AddCustomerTest -->
     </test> <!-- Add Customer Test -->
-    <test started-at="2023-07-14T11:20:57Z" name="Open Account Test" finished-at="2023-07-14T11:21:08Z" duration-ms="11344">
+    <test started-at="2023-07-15T10:21:30Z" name="Open Account Test" finished-at="2023-07-15T10:21:31Z" duration-ms="1097">
       <class name="testcases.OpenAccountTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.OpenAccountTest@c9d82f9]" started-at="2023-07-14T11:20:39Z" name="setUp" finished-at="2023-07-14T11:20:45Z" duration-ms="5896" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.OpenAccountTest@c9d82f9]" started-at="2023-07-15T10:21:15Z" name="setUp" finished-at="2023-07-15T10:21:19Z" duration-ms="4475" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="openAccount(java.lang.String, java.lang.String)[pri:0, instance:testcases.OpenAccountTest@c9d82f9]" started-at="2023-07-14T11:20:57Z" name="openAccount" data-provider="data" finished-at="2023-07-14T11:21:08Z" duration-ms="11093" status="FAIL">
+        <test-method signature="openAccount(java.lang.String, java.lang.String)[pri:0, instance:testcases.OpenAccountTest@c9d82f9]" started-at="2023-07-15T10:21:30Z" name="openAccount" data-provider="data" finished-at="2023-07-15T10:21:31Z" duration-ms="1094" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -116,60 +116,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[Pounds]]>
+                <![CDATA[Pound]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Cannot locate option with value: Ola Olawoyin
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.8.3', revision: 'e5e76298c3'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
-Driver info: driver.version: unknown]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Ola Olawoyin
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.8.3', revision: 'e5e76298c3'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
-Driver info: driver.version: unknown
-at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:291)
-at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:194)
-at base.BaseTest.select(BaseTest.java:115)
-at testcases.OpenAccountTest.openAccount(OpenAccountTest.java:15)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openAccount -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.OpenAccountTest@c9d82f9]" started-at="2023-07-14T11:21:08Z" name="tearDown" finished-at="2023-07-14T11:21:09Z" duration-ms="448" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.OpenAccountTest@c9d82f9]" started-at="2023-07-15T10:21:31Z" name="tearDown" finished-at="2023-07-15T10:21:31Z" duration-ms="191" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

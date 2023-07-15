@@ -112,7 +112,7 @@ public class BaseTest {
 		}
 		
 		Select select = new Select(dropdown);
-		select.selectByValue(value);
+		select.selectByVisibleText(value);
 		
 		
 		log.info("Selecting an element : " + locatorKey + "  and selecting a value : " + value);
